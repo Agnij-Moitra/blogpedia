@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <link href="styles.css" rel="stylesheet">
+        <script src="script.js"></script>
+        <title>Cryptograpgy 💰</title>
+
+    </head>
+
+    <body id="bolgbody">
+
+        <!-- Optional JavaScript; choose one of the two! -->
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+        <!--Rating-->
+        <div class="article-clean">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 col-xl-8 offset-lg-1 offset-xl-2">
+                        <div id="headertxt" class="intro">
+                            <h1 class="text-center">How Are Large Prime Numbers Generated ?</h1>
+
+                            <img class="img-fluid" src="https://source.unsplash.com/1400x500/?cryptography"></div>
+
+                        <div class="text">
+                            <div style="font-size: 25px;">
+                                <p>Large Prime Numbers are the Backbone the current RSA Crypto System, the safety and security of our data that we send over the internet lies on it.</p>
+
+                                <h2>Background:</h2>
+                                <p>RSA uses a concept of Public and Private keys where Public keys and be used to encrypt messages and only the corresponding Private Key can decrypt a encrypted message. Let’s take and two people, Alice and Bob. If Alice
+                                    wants to send a confidential document to Bob. She’d first use Bob’s Public Key (Public Keys are accessible to everyone) to encrypt to document and now only Bob could decrypt it with his Private Key. These keys are huge
+                                    prime numbers.
+                                </p>
+                                <p>
+                                    Now here comes the question how are large prime numbers generated?
+                                </p>
+
+                                <p>
+                                    It turns out that we can generate infinitely many prime numbers that are very hard even for the most powerful computer of factor out one of the ways to do so is as follows :
+                                </p>
+                                <p>
+                                    <b>The new prime number = (Product of existing prime numbers) + 1</b>
+                                </p>
+                                <figure><img class="img-fluid" src="img/1to100.png" />
+                                </figure>
+                                <p>For example this shows all the prime numbers from 1 to 100 and if you do the math out. That is (2 * 3 * 5 * 7 * 11 * 13 *17 * 19 * 23 * 29 * 31 * 37 * 41 * 43 * 47 * 53 * 59 * 61 * 67 * 71 * 73 * 79 * 83 * 89 * 97) + 1.
+                                    It should be this number 2305567963945518424753102147331756071</p>
+                                <p>Further to make things even more secure this is an example of prime numbers used in reality</p>
+                                <figure><img class="img-fluid" src="img/largenum.jpeg" /></figure>
+                                <h4>Quick recap of the same :</h4>
+                                <!--The iframe was used from my original article ie: https://agnijmoitra.medium.com/how-are-large-prime-numbers-generated-6b30e8a4d09e-->
+                                <iframe src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fdocs.google.com%2Fpresentation%2Fembed%3Fid%3D1wIN8yn1xCkgbfECCvgXc-L2AiDrovUMneW_HPTN4E1E%26size%3Dl&amp;display_name=Google+Docs&amp;url=https%3A%2F%2Fdocs.google.com%2Fpresentation%2Fd%2F1wIN8yn1xCkgbfECCvgXc-L2AiDrovUMneW_HPTN4E1E%2Fedit%3Fusp%3Dsharing&amp;image=https%3A%2F%2Flh5.googleusercontent.com%2FKwVQ_tCDxPBIkLxpN79ro63GBJcmooCxqBRkXORpcq_QR95PPLrs9rJpWB768HlIoRkbMPQa613yOQ%3Dw1200-h630-p&amp;key=a19fcc184b9711e1b4764040d3dc5c07&amp;type=text%2Fhtml&amp;schema=google"
+                                    allowfullscreen="" frameborder="0" height="559" width="700" title="Large Prime Numbers" class="fh ep em kf w" scrolling="auto"></iframe>
+                            </div>
+                            <h5>Did you find it helpful?</h5>
+                            <span><button id="yes" class="mybutton">Yes</button></span>
+                            <span><button id="no" class="mybutton">No</button></span>
+
+
+                            <p style="padding: 20px;"><a class="btn btn-secondary pbutton" href="index.html">Home 🏠</a></p>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footertxt">
+            <p class="text-center"><span class="by">by</span> <a>Agnij Moitra, </a>
+                <span class="date">2021 | This a a article that I wrote on Medium: </span>
+                <a href="https://agnijmoitra.medium.com/how-are-large-prime-numbers-generated-6b30e8a4d09e">[Click Here]</a>
+            </p>
+
+        </footer>
+    </body>
+
+</html>

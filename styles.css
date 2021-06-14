@@ -1,0 +1,98 @@
+.pbutton {
+    font-family: Garamond, serif background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.col-lg-4 {
+    font-family: Garamond, serif margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 20px;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    /*padding: 20px;*/
+}
+
+footer {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 10px;
+    font-family: Garamond, serif;
+}
+
+.footertxt {
+    color: black;
+    text-shadow: 1px 1px 2px white, 0 0 25px white, 0 0 5px darkblue;
+    font-family: Garamond, serif font-size: 20px;
+    text-align: center;
+    padding: 3px;
+}
+
+#headertxt {
+    color: black;
+    text-shadow: 1px 1px 2px white, 0 0 25px white, 0 0 5px darkblue;
+    font-family: Garamond, serif font-size: 20px;
+    text-align: center;
+    padding: 5px;
+}
+
+div.background {
+    background: url(klematis.jpg) repeat;
+    border: 2px solid black;
+}
+
+div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+}
+
+div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+}
+
+h1 {
+    font-size: 30px;
+    color: black;
+    text-shadow: 1px 1px 2px white, 0 0 25px white, 0 0 5px white;
+    font-family: Garamond, serif font-size: 20px;
+    text-align: center;
+}
+
+.mybutton {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    border-radius: 25px;
+}
+
+#yes:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#no:hover {
+    background-color: red;
+    /* Green */
+    color: white;
+}
+
+#bolgbody {
+    background-color: yellow;
+}

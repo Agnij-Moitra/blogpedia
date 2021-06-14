@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="styles.css" rel="stylesheet">
+        <script src="script.js"></script>
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+        <title>BlogPedia 📚</title>
+    </head>
+
+    <body>
+
+        <!-- Optional JavaScript; choose one of the two! -->
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+
+        <!--navbar-->
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-blue" style="background-color: #e3f2fd;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">BlogPedia 📚</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <!--<li class="nav-item">-->
+                        <!--    <a class="nav-link" href="#">Link</a>-->
+                        <!--</li>-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Blogs
+                        </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="1.html">Math and Crytography</a></li>
+                                <li><a class="dropdown-item" href="2.html">Horror</a></li>
+                                <li><a class="dropdown-item" href="3.html">Diary Entry</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!--<form class="d-flex">-->
+                    <!--    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">-->
+                    <!--    <button class="btn btn-outline-success" type="submit">Search</button>-->
+                    <!--</form>-->
+                </div>
+            </div>
+        </nav>
+
+        <!--display-->
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://source.unsplash.com/1400x500/?novels" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Stories</h1>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://source.unsplash.com/1400x500/?science" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>STEM</h1>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/cloak.jfif" class="d-block w-100" alt="..." height="550">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Horror</h1>
+                        <!--<p>Some representative placeholder content for the third slide.</p>-->
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://source.unsplash.com/1400x500/?math" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Math</h1>
+                        <!--<p>Some representative placeholder content for the third slide.</p>-->
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://source.unsplash.com/1400x500/?physics" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Physics</h1>
+                        <!--<p>Some representative placeholder content for the third slide.</p>-->
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+        </div>
+
+        <!--dis2-->
+
+        <div class="row">
+            <div class="col-lg-4">
+                <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="https://source.unsplash.com/1400x500/?cryptography" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text></svg>
+
+                <h2>How Are Large Prime Numbers Generated ?</h2>
+                <p>Large Prime Numbers are the Backbone the current RSA Crypto System, the safety and security of our data that we send over the internet lies on it.</p>
+                <p><a class="btn btn-secondary pbuttom" href="1.html">Read »</a></p>
+            </div>
+            <!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="img/cloak.jfif" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text></svg>
+
+                <h2>The Man In The Black Cloak</h2>
+                <p>It was a somber gloomy night. Fred was lost in the thick woods. It was cold and raining. One could even hear the thunder. Fred exclaimed, “I wonder why did I even come here!” Soon the misery worsened ...</p>
+                <p><a class="btn btn-secondary pbutton" href="2.html">Read »</a></p>
+            </div>
+            <!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="img/covid.jfif" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text></svg>
+
+                <h2>Life In The Corona Times</h2>
+                <p>Sunday, April 5th, 2020 <br> 7:00 pm <br> Dear Diary, <br>
+                </p>
+                <p>We, humanity, are struck by a strange enemy called the Novel Corona Virus aka COVID-19, and the world is brought to its knees by this small virus....</p>
+                <p><a class="btn btn-secondary pbutton" href="3.html">Read »</a></p>
+            </div>
+            <!-- /.col-lg-4 -->
+        </div>
+
+        <footer class="footertxt">
+            <span>Author: Agnij Moitra</span>
+            <span>| Last Updated: June 12th, 2021</span>
+        </footer>
+        
+</html>
